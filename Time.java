@@ -10,7 +10,8 @@ public class LessonSeventeen {
 		getTime.start();
 		
 		new Thread(getMail).start();
-		new Thread(getMailAgain).start();
+		new Thread(getMailAgain).start(); // starts the program thread
+		
 		
 
 	}
